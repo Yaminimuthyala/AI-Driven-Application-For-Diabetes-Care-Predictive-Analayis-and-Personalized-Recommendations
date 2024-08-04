@@ -42,10 +42,13 @@ python code/data_eda.py
 
 ### Run the model code
 python code/model_train.py
+
 python code/model_train.py --show-plots
 ### Run the best model
 python code/best_model.py
-python code/best_model.py --show-plots
+
+python code/best_model.py show-plots
+
 NOTE: Use --show-plots to see plots while training models or while running best model
 
 ### Web Application
